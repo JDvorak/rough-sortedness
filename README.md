@@ -6,7 +6,7 @@ Utility to compute the rough sortedness of a list.
 
 Rough-Sortedness takes the ratio of the number of incrementing sequences in an array and divides it by the length of the total array to estimate the general sortedness of the array. 
 
-Warning: this rough sortedness metric is blind to interleaved sorted sequences, and reversed but perfectly sorted arrays will return a score of 0. 
+**Warning:** this rough sortedness metric is blind to interleaved sorted sequences, and reversed but perfectly sorted arrays will return a score of 0. 
 
 
 ## Usage
