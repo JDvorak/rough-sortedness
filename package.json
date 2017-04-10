@@ -1,6 +1,6 @@
 {
   "name": "rough-sortedness",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to compute the rough sortedness of a list",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,10 @@
     "test": "standard && npm run deps && NODE_ENV=test node test",
     "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test.js"
   },
-  "repository": "JDvorak/rough-sortedness",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdvorak/rough-sortedness.git"
+  },
   "keywords": [
     "sort",
     "estimation",
@@ -21,5 +24,10 @@
     "istanbul": "^0.4.5",
     "standard": "^10.0.1",
     "tape": "^4.6.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jdvorak/rough-sortedness/issues"
+  },
+  "homepage": "https://github.com/jdvorak/rough-sortedness#readme",
+  "author": "John Dvorak <john@johnsdvorak.com>"
 }
